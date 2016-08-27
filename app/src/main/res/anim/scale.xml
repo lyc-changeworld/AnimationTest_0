@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<!--配置缩放比例动画：
+动画x、y轴的起始缩放比例
+动画x、y轴的变化后缩放比例
+fillAfter="ture"代表动画结束后恢复到原始的状态
+interpolator:动画的插入器:
+相对于x、y的坐标开始位置
+-->
+    <scale
+        android:duration="2000"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:toXScale="1.0"
+        android:toYScale="1.0"
+        android:fillAfter="false"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%">
+    </scale>
+</set>

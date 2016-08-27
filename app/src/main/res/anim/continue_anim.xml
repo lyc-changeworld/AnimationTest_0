@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    startOffset:对应前一个动画的延迟时间,第一个动画先进行,第二个动画延迟一段时间才进行
+    -->
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.2"
+        android:toAlpha="1.0">
+    </alpha>
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.2"
+        android:startOffset="1000">
+    </alpha>
+</set>
